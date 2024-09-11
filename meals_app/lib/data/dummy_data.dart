@@ -10,7 +10,7 @@ const availableCategories = [
   ),
   Category(
     id: 'c2',
-    title: 'Picas',
+    title: 'Pizza',
     color: Colors.blue,
   ),
   Category(
@@ -95,7 +95,8 @@ const dummyMeals = [
     title: 'Traditional Pica Dish',
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
-    imageUrl: 'https://www.example.com/pica_dish.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 50,
     ingredients: [
       '500g Pica meat',
@@ -130,7 +131,8 @@ const dummyMeals = [
     title: 'Classic Hamburger',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl: 'https://www.example.com/classic_hamburger.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 15,
     ingredients: [
       '200g Ground Beef',
@@ -165,7 +167,8 @@ const dummyMeals = [
     title: 'Sushi Platter',
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
-    imageUrl: 'https://www.example.com/sushi.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 40,
     ingredients: [
       '200g Sushi Rice',
@@ -193,7 +196,8 @@ const dummyMeals = [
     title: 'Pancakes',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl: 'https://www.example.com/pancakes.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 20,
     ingredients: [
       '2 Eggs',
@@ -220,7 +224,8 @@ const dummyMeals = [
     title: 'Fries',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl: 'https://www.example.com/fries.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 15,
     ingredients: [
       '4 Potatoes',
@@ -245,7 +250,8 @@ const dummyMeals = [
     title: 'Popcorn',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl: 'https://www.example.com/popcorn.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 10,
     ingredients: [
       '1/2 Cup Popcorn Kernels',
@@ -270,7 +276,8 @@ const dummyMeals = [
     title: 'Ice Cream Sundae',
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
-    imageUrl: 'https://www.example.com/sundae.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 10,
     ingredients: [
       'Ice Cream',
@@ -295,7 +302,8 @@ const dummyMeals = [
     title: 'Grilled Cheese',
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
-    imageUrl: 'https://www.example.com/grilled_cheese.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 10,
     ingredients: [
       '2 Slices of Bread',
@@ -316,7 +324,8 @@ const dummyMeals = [
     title: 'Beef Stew',
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
-    imageUrl: 'https://www.example.com/beef_stew.jpg',
+    imageUrl:
+        'https://www.allrecipes.com/thmb/jqhIoI7oJd57DuLIje4zP_CeXt0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Easyspaghettiwithtomatosauce_11715_DDMFS_4x3_2424-8d7bf30b2622465f9dd78a2c6277eeb8.jpg',
     duration: 90,
     ingredients: [
       '500g Beef',
